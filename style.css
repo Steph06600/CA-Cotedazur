@@ -1,0 +1,394 @@
+header {
+    background-image: url("ressources/coffee.jpg");
+    filter: drop-shadow(2px 4px 6px black);
+    background-size: cover;
+    color: white;
+    position: relative;
+    width:100%;
+}
+
+header .col-8 {
+    position: relative;
+    height: 93vh;
+    line-height: 93vh;
+    padding: 40vh 0vh;
+    text-align: center;
+}
+
+.col-8 h1 {
+    background-color: rgba(56, 157, 180, 0.7);
+    font-size: 7vh;
+}
+
+/* Partie nav*/
+
+nav {
+    padding: 12px 24px;
+    color: white;
+    background-color: #389DB4;
+    font-size: 20px;
+    position: relative;
+    top: -2px;
+    width:100%;
+}
+
+nav span {
+    font-weight: bold;
+}
+
+/* Partie nav blanche*/
+
+.navblanche{
+    background-color: white;
+    color: #389DB4;
+    font-size: 20px;
+    width:100%;
+}
+
+#bloc3 {
+    padding-top: 40px;}
+
+.bloc3 {
+    height: 18vh;
+}
+
+ {
+    text-align: end;
+}
+
+/* Partie Esprit club*/
+
+.bloc4 {
+    position: relative;
+    background-color: #C7ECF6;
+    color: white;
+    width:100%;
+    display: inline-block;
+}
+
+#blocpara {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#blocparaesprit {
+    margin: auto;
+    position: static;
+    background-color: #389DB4;
+    padding-left: 2VH;
+    margin-left: 8VH;
+}
+
+.titredroit {
+    position: relative;
+    font-size: 20px;
+    top: 12px;
+    left: -2px;
+}
+
+#titreoriente {
+    position: relative;
+    font-size: 20px;
+}
+
+.titreoriente {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 30px;
+    left: -35px;
+}
+
+#blocimageclub {
+    display: flex;
+}
+
+.paraesprit {
+    text-align: justify;
+    padding-left: 5vh;
+    padding: 0 4vh 4vh 4vh;
+}
+
+.imageesprit {
+    WIDTH: 100%;
+    padding: 5vh;
+    padding-right: 0;
+}
+
+/* Nos membres*/
+
+.blocmembres {
+    background-color: #389DB4;
+    color: white;
+    width:100%;
+}
+
+#blocMembres {
+    margin: auto;
+    padding: 7vh;
+    display: flex;
+}
+
+.carreBlanc {  
+    background-color: white;
+    height: 10vh;
+    width: 20vh;
+}
+
+#carreBlancG {
+    position: relative;
+    left: 9vh;
+    TOP: 0vh;
+}
+
+#carreBlancD {
+    position: relative;
+    z-index: 1;
+    top: 19vh;
+    right: -41VH;
+
+}
+
+.paragrapheMembres {
+    position: relative;
+    background-color: #389DB4;
+    color: white;
+    z-index: 2;
+    top: 8px;
+    left: -56px;
+}
+
+#titreMembres {
+    position: relative;
+    left: 2vh;
+}
+
+#titreNos {
+    transform: rotate(-90deg);
+    position: absolute;
+}
+
+#paraMembres {
+    position: relative;
+    padding: 4vh;
+    text-align: justify;
+}
+
+#carreParaMembres {
+    position: relative;
+    top: -5vh;
+    left: 3vh;
+}
+
+/*Partie Logo*/
+
+.logo {
+    background-color: #C7ECF6;
+    padding: 40px;
+    width:100%;
+}
+
+.logo.col-3 {
+    text-align: center;
+    height: 4vh;
+}
+.logo div {
+    color: white;
+    text-align: center;
+}
+
+.logo span {
+    display: block;
+    background-color: grey;
+    margin: 4vh 4vh;
+    text-align: center;
+    padding: 6vh;
+}
+
+
+/* Partie club affaire*/
+
+#containerClubAffaire {
+    background-color: #C7ECF6;
+    color: white;
+    background-image: url(ressources/student.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#containerParaClubAffaire {
+    background-color: #389DB4;
+    text-align: center;
+    margin: 14vh 0;
+    margin-right: 12px;
+}
+
+#imageClubAffaire {
+
+}
+
+
+#actu {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2vh;
+    font-size: larger;
+}
+
+#clubAffaires {
+    font-size: larger;
+    text-align: initial;
+}
+
+#actuClubAffaire {
+    position: relative;
+}
+
+#carreParaActu {
+    text-align: justify;
+    padding: 0 3vh;
+}
+
+
+/* Bullet points */
+
+#containerPoints {
+    background-color: #C7ECF6;
+}
+
+#bulletsPoints {
+    color: white;
+    font-size: 28px;
+    margin: auto;
+    display: flex ;
+    }
+
+#bulletsPoints li{
+        margin: 2vh 2vh;
+    }
+
+#flexpoints {
+    display: inline-flex;
+}
+
+
+/* Formulaire */
+
+.formulaire {
+    font-size: small;
+    color: grey;
+    margin: 10vh 0;
+}
+
+.formulaire label, input, select, button {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+#containerMiseEnPage {
+    padding: 10vh;
+}
+.containerTitreFormulaire {
+    position: relative;
+    width: 100%;
+}
+
+.containerNomPrénom {
+    width: 100%;
+    gap:37px;
+}
+
+.containerNomPrénom select {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.titreDroitFormulaire {
+    color: #C7ECF6;
+    font-size: 3VH;
+    text-align: initial;
+    position: relative;
+    left: -30px;
+}
+
+.titreOrientéFormulaire {
+    color: #389DB4;
+    font-size: 3VH;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 14vh;
+    left: -12vh;
+}
+
+.Societe {
+    width: 50%!important;
+}
+
+.SelectAucune {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.formulaire input {
+    border-style: none;
+    border-bottom:1px solid grey;
+    display: flex;
+}
+
+.containerNomPrénom {
+    display:flex;
+}
+
+
+.containerEmailTéléphone {
+    display:flex;
+    gap: 37px;
+}
+
+.blocMessage {
+    width: 100%;
+}
+
+.containerCheckPara {
+    font-size: 10px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+.containerCheckPara input {
+    width: 10%;
+}
+
+.containerCheckPara span{
+    color: #389DB4;
+    font-weight: bold;
+    text-justify: auto;
+    text-align: left    ;
+}
+
+.containerCheckPara label {
+    text-align: justify;
+}
+
+#bouton {
+    margin: 4vh auto;
+    display: flex;
+    background-color: #389DB4;
+    color: white;
+    border: none;
+    padding: 1vh 6vh;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    color: white;
+    background-color: #389DB4;
+    padding: 4vh;font-size: small;
+}
+
+.footer span {
+    margin: 4vh;
+}
